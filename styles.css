@@ -172,3 +172,42 @@ h3
   font-size: 3rem;
   line-height: 1.5;
 }
+
+#footer
+{
+  text-align: center;
+    color: #A9A9A9;
+    padding: 23px 50px 10px 50px;
+}
+
+.blackiconcolor
+{
+  color: #A9A9A9;
+    padding: 10px;
+    padding-bottom: 23px;
+}
+
+.twitter:hover
+{
+  color: #00acee;
+}
+
+.instagram:hover
+{
+  color: #3f729b;
+}
+
+.facebook:hover
+{
+  color: #3b5998;
+}
+
+.mail:hover
+{
+  color: #00acee;
+}
+
+.footer-para
+{
+  margin-bottom: 5px;
+}

@@ -1,0 +1,167 @@
+#title {
+  background-color: #FF4C68;
+}
+
+body {
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 9%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.apple-btn, .play.btn {
+  margin: 5% 3% 5% 0;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* .iphone {
+  width: 353px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 121px;
+  top: -20px;
+} */
+
+@media (max-width: 1028px)
+{
+  .iphone
+  {
+    transform: rotate(0);
+    position: static;
+  }
+  #title
+  {
+    text-align: center;
+  }
+}
+
+.iphone {
+  width: 322px;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 29px;
+}
+#features {
+  text-align: center;
+}
+
+.white-color {
+  padding: 11% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0px 20px 0px 20px;
+}
+
+#carouselExampleControls {
+  padding: 7% 0%;
+}
+
+.carousel-item {
+  padding: 0% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+#cta
+{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-buttons
+{
+  margin: 32px 10px 0px 10px;
+}
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
+}

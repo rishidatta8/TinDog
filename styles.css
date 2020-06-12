@@ -21,6 +21,13 @@ h2 {
 .container-fluid {
   padding: 3% 15% 9%;
 }
+@media (max-width:1024px)
+{
+  .container-fluid
+  {
+    padding: 9px 14px 30px 14px;
+  }
+}
 
 .navbar {
   padding: 0 0 4.5rem 0;
@@ -71,7 +78,7 @@ h2 {
   position: absolute;
   margin-left: 29px;
 }
-@media (max-width: 1028px)
+@media (max-width: 1024px)
 {
   .iphone
   {

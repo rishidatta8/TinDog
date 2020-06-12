@@ -1,5 +1,12 @@
+html, body
+{
+  height: 100%;
+  margin: 0px;
+}
+
 #title {
   background-color: #FF4C68;
+  height: 100%;
 }
 
 body {
@@ -19,7 +26,8 @@ h2 {
 }
 
 .container-fluid {
-  padding: 3% 15% 15%;
+  padding: 3% 15% 9%;
+  height: 100%;
 }
 @media (max-width:1024px)
 {
@@ -212,9 +220,4 @@ h2 {
   text-align: center;
   font-size: 3rem;
   line-height: 1.5;
-}
-
-.card
-{
-  height: 480px;
 }

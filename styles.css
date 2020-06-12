@@ -165,13 +165,7 @@ h2 {
 {
   margin: 32px 10px 0px 10px;
 }
-h3
-{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 3rem;
-  line-height: 1.5;
-}
+
 
 #footer
 {
@@ -194,7 +188,7 @@ h3
 
 .instagram:hover
 {
-  color: deeppink;
+  color: pink;
 }
 
 .facebook:hover
@@ -210,4 +204,12 @@ h3
 .footer-para
 {
   margin-bottom: 5px;
+}
+
+.cta
+{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
 }

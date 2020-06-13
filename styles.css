@@ -78,8 +78,8 @@ h2 {
   width: 322px;
   transform: rotate(18deg);
   position: absolute;
-  margin-left: 108px;
-  margin-top: -40px;
+  right: 121px;
+  top: -20px;
 }
 @media (max-width: 1024px)
 {

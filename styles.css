@@ -1,12 +1,6 @@
-html, body
-{
-  height: 100%;
-  margin: 0px;
-}
 
 #title {
   background-color: #FF4C68;
-  height: 100%;
 }
 
 body {
@@ -27,7 +21,6 @@ h2 {
 
 .container-fluid {
   padding: 3% 15% 9%;
-  height: 100%;
 }
 @media (max-width:1024px)
 {
@@ -36,6 +29,7 @@ h2 {
     padding: 9px 14px 30px 14px;
   }
 }
+
 
 .navbar {
   padding: 0 0 4.5rem 0;
@@ -82,9 +76,10 @@ h2 {
 
 .iphone {
   width: 322px;
-  transform: rotate(25deg);
+  transform: rotate(18deg);
   position: absolute;
-  margin-left: 29px;
+  margin-left: 108px;
+  margin-top: -40px;
 }
 @media (max-width: 1024px)
 {
@@ -93,11 +88,99 @@ h2 {
     transform: rotate(0);
     position: static;
   }
+
   #title
   {
     text-align: center;
   }
 }
+
+/* @media (min-width: 768px)
+{
+  html, body
+  {
+    height: 100%;
+    margin: 0px;
+  }
+  #title
+  {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .iphone
+  {
+    position: relative;
+    width: 30%;
+  }
+} */
+
+@media (max-width: 1024px) and (min-device-width: 768px)
+{
+  .iphone
+  {
+    width: 250px;
+  }
+  .navbar
+  {
+    padding-bottom: 6px;
+  }
+}
+
+@media (min-width: 1024px)
+{
+  html,body
+  {
+    height: 100%;
+    margin: 0%;
+  }
+  #title
+  {
+    height: 100%;
+  }
+  .container-fluid
+  {
+    height: 100%;
+  }
+}
+
+@media (min-device-width: 768px)
+{
+  html,body
+  {
+    height: 100%;
+    margin: 0%;
+  }
+  #title
+  {
+    height: 100%;
+  }
+  .container-fluid
+  {
+    height: 100%;
+  }
+}
+
+/* @media (max-device-width: 425px)
+{
+  .iphone
+  {
+    width: 10px;
+  }
+  .title-col
+  {
+    font-size: 540%;
+    padding: 0 15%;
+  }
+
+  .navbar
+  {
+    height: 10%;
+  }
+
+} */
+
 #features {
   text-align: center;
 }

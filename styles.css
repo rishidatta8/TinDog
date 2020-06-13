@@ -81,7 +81,7 @@ h2 {
   right: 121px;
   top: -20px;
 }
-@media (max-width: 1024px)
+@media (max-width: 1200px)
 {
   .iphone
   {
@@ -243,6 +243,11 @@ h2 {
 
 .pricing-card {
   padding: 3% 2%;
+}
+
+.card
+{
+  height: 460px;
 }
 
 #cta
